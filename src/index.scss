@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Roboto' , sans-serif;
+}
+
+.container{
+  display: flex;
+  .sidebar{
+    background-color: black;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+
+    .logo-container {
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      flex-direction: column;
+      .logo{
+        height: 40px;
+        padding: 20px 0 0;
+      }
+      h1{
+        color:white;
+        font-size: 23px;
+      }
+    }
+    
+    .menu{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+      margin-top: 15%;
+      .menu-title{
+        // text-decoration: none;
+        color: wheat;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding: 0 10px ;
+      }
+      .link{
+        text-decoration: none;
+        color:white;
+        .link-title{
+          padding: 10px;
+          transition: all 0.3s;
+          &:hover{
+            background-color: grey;
+            // color:rgb(0, 133, 77);
+          }
+        }
+      }
+    }
+    .social-icons{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 50px 0;
+      .social-icon{
+        font-size: 30px;
+        color:white;
+        &:hover{
+          color: greenyellow;
+        }
+      }
+    }
+  }
+
+}
+
+.bars{
+  position: fixed;
+  right: 0;
+  background-color: greenyellow;
+  color: white;
+  font-size: 30px;
+  padding: 5px 10px;
+  margin: 10px;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width:991px){
+  .bars{
+    display: block;
+  }
+  .sidebar{
+    display: none;
+  }
+  main{
+    padding-left: 0px;
+  }
+}
+main{
+  width: 100%;
+  // padding-left: 20px;
+  margin: 5% 10% 0 30%;
+}
+
+.list-items{
+    padding: 10px;
+}
+ul{
+    padding: 20px;
+    li{
+        padding: 10px;
+    }
+    .p{
+        color: black;
+        text-decoration: none;
+        font-size: 26px;
+    }
+}

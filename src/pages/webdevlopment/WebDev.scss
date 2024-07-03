@@ -1,0 +1,33 @@
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    justify-content: center;
+    .pack-card-body{
+        overflow:hidden ;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 21px;
+        padding: 50px 20px 0;
+        .pack-title{
+            font-size: 35px;
+        }
+        .pack-content{
+            padding: 0 20px;
+        }
+        .pack-desc{
+            padding: 15px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .card-btn{
+            background-color: #EF9C66;
+            border: none ;
+            padding: 10px;
+            margin-bottom: 50px;
+            cursor: pointer;
+        }
+    }
+}
