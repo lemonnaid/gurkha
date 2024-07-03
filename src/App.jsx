@@ -24,10 +24,10 @@ export default function App() {
           <Route path = '/webdev' element= { <WebDev/> }  />
           <Route path = '/seo' element= { <Seo/> }  />
           <Route path = "/fb-insta" element= { <FbInsta />}/>
-          <Route path = "/googleads" element= { <GoogleAds/>}/>
-          <Route path = "/tiktok-vid" element= {<TiktokVideo /> }/>
-          <Route path = "/logo" element={<Logo />} />
-          <Route path = "/promo" element={<Promotional/> } />
+          <Route path = "/dm/googleads" element= { <GoogleAds/>}/>
+          <Route path = "/dm/tiktok-vid" element= {<TiktokVideo /> }/>
+          <Route path = "/design/logo" element={<Logo />} />
+          <Route path = "/design/promo" element={<Promotional/> } />
         </Routes>
       </Sidebar>
     

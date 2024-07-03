@@ -5,13 +5,13 @@ export default function Design() {
   return (
     <div className="digital-marketing">
       <h1>Design Cost Rates</h1>
-      <p>At Gurkha Technology, we understand the importance of a strong online presence in today's digital age. That's why we offer a range of comprehensive digital marketing packages tailored to meet your business's unique needs.</p>
+      <p>Although custom designs aren’t a one-off thing and some designs may require multiple iterations, the rate sheet below is an estimate of how much things would tentatively cost. Please note that the above rate are design charges and additional printing charges apply at your end.</p>
       <ul>
         <li>
-          <NavLink to="/logo" className="p">Logo</NavLink>
+          <NavLink to="/design/logo" className="p">Logo</NavLink>
         </li>
         <li>
-          <NavLink to="/promo" className="p">Promotional Package</NavLink>
+          <NavLink to="/design/promo" className="p">Promotional Package</NavLink>
         </li>
         
         

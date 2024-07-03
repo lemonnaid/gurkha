@@ -11,10 +11,10 @@ const DigitalMarketing = () => {
           <NavLink to="/fb-insta" className="p" >Facebook & Instagram</NavLink>
         </li> */}
         <li>
-          <NavLink to="/googleads" className="p">Google Ads</NavLink>
+          <NavLink to="/dm/googleads" className="p">Google Ads</NavLink>
         </li>
         <li>
-          <NavLink to="/tiktok-vid" className="p">Tiktok Videos</NavLink>
+          <NavLink to="/dm/tiktok-vid" className="p">Tiktok Videos</NavLink>
         </li>
         
       </ul>
